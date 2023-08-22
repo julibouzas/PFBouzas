@@ -1,0 +1,12 @@
+//import base
+@import 'base/vars';
+@import 'base/reset';
+@import 'base/utilities';
+
+//import components
+@import 'components/navbar';
+@import 'components/footer';
+
+//import layouts
+@import 'layout/index';
+@import 'layout/mediaquieres';

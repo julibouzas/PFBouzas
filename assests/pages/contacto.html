@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" href="../Css/styles.css">
-    <title>Galeria</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <title>Contacto</title>
 </head>
 
 <body>
@@ -24,7 +24,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                        <a class="nav-link" aria-current="page" href="../../index.html">Inicio</a>
                         <a class="nav-link" href="galeria.html">Galeria</a>
                         <a class="nav-link" href="tour.html">Tour</a>
                         <a class="nav-link" href="discografia.html">Discografia</a>
@@ -34,27 +34,25 @@
             </div>
         </nav>
 
-
     </header>
 
-    <main>
-        <div class="fotosgaleria">
-            <h2>Galeria</h2>
-            <div class="imagenes">
-                <img src="../images/galeria1.jpg" alt="Twenty One Pilots">
-                <img src="../images/galeria2.jpg" alt="Twenty One Pilots 2">
-                <img src="../images/galeria3.jpg" alt="Twenty One Pilots 3">
-                <img src="../images/galeria4.jpg" alt="Twenty One Pilots 4">
-                <img src="../images/galeria5.jpg" alt="Twenty One Pilots 5">
-                <img src="../images/galeria6.jpg" alt="Twenty One Pilots 6">
-                <img src="../images/galeria7.jpg" alt="Twenty One Pilots 7">
-                <img src="../images/galeria8.jpg" alt="Twenty One Pilots 8">
-                <img src="../images/galeria9.png" alt="Twenty One Pilots 9">
-            </div>
+    <main class="formulario">
+        <h1>Contacto</h1>
+        <p>Tu opinión es fundamental para mejorar y brindarte la mejor experiencia posible.</p>
+        <!--mehotd=POST= ENVIAR DATOS - GET= TRAER DATOS-->
 
-        </div>
+        <form action method="GET" enctype="multipart/form-data">
+
+            <input type="text" name="Nombre" placeholder="Nombre">
+
+            <input type="email" name="email" placeholder="Email">
+
+            <textarea name="mensaje" placeholder="Mensaje"></textarea>
+
+            <input type="submit" value="ENVIAR" id="boton">
+
+        </form>
     </main>
-
     <footer id="footer">
         <div class="footer-contenedor text-light text-center ">
             <p class="display-5 mb-3 ">TWENTYONEPILOTS</p>

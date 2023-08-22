@@ -1,0 +1,36 @@
+header {
+    background-color: #000000;
+    top: 0;
+    width: 100%;
+    position: fixed;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+  }
+  
+  .navbar-nav {
+    font-size: 18px;
+  }
+  
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+  
+  .nav-link {
+    color: $light-color;
+    margin: 0 10px;
+  }
+  
+  .navbar-toggler-icon {
+    color: $light-color;
+  }
+  
+  .nav-link:hover {
+    color: $main-color;
+  }
+  
+  .nav-link:visited .nav-link:link {
+    color: inherit;
+  }
+  

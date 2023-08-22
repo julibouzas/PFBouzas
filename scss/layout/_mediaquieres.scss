@@ -1,0 +1,77 @@
+/* mediaqueries */
+
+@media only screen and (max-width: 1000px) {
+    .contenedor {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      padding: 0;
+    }
+  
+    .inicio-derecha img {
+      object-fit: contain;
+      width: 100%;
+      min-height: auto;
+      max-height: 100%;
+      height: auto;
+    }
+  
+    .inicio-izquierda p {
+      background-color: transparent;
+      width: 90%;
+      align-self: center;
+      border-radius: 0;
+      padding: 0;
+      margin-top: 20px;
+  
+    }
+  
+    .inicio-izquierda {
+      width: 100%;
+      background-color: #191919;
+    }
+  
+    .card_body {
+      width: 100%;
+      margin: 50px 0px;
+    }
+
+    .cardspotify {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    iframe {
+      margin:  10px 0 !important;
+    }
+
+    .discografia p {
+      margin: 30px 50px;
+    }
+
+    .fechas  {
+      display: flex;
+      width: 100%;
+    }
+
+    .fechas ul li{
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .fondotour {
+      margin-top: 40px;
+    }
+  
+  
+  }
+  
+  
+  @media only screen and (max-width: 1150px) {
+    .imagenes img {
+      width: 50%;
+    }
+  }
