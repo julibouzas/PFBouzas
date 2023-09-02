@@ -79,6 +79,10 @@ footer {
   border-radius: 20px;
 }
 
+header {
+  z-index: 1000;
+}
+
 .inicio-derecha {
   grid-area: right;
 }
